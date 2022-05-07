@@ -27,15 +27,19 @@ The aim of this .Net project is to
    
    Failed Tests :
    
-   [![consolefail.jpg](https://i.postimg.cc/zf0QB0DM/consolefail.jpg)](https://postimg.cc/4KHP2v9b)
+   [![consolefail.jpg](https://i.postimg.cc/sfNt5jd2/consolefail.jpg)](https://postimg.cc/8sLKSVC8)
    
 
 ### Continuous Integration
 
 3. A CI pipeline is also created through Git Hub actions workflow file. The actions trigger a CI build which performs some checks & execute the unit tests when ever      there is a Push or pull request to the master/main branch
-
+   Github Action:
    [![GHActions.jpg](https://i.postimg.cc/wBSMRcBq/GHActions.jpg)](https://postimg.cc/5HSbZzvT)
-
    
+   Build Passed since Tests Passed
+   [![pass2.jpg](https://i.postimg.cc/1Xn7vFh3/pass2.jpg)](https://postimg.cc/QKDqtHd2)
+   [![passed3.png](https://i.postimg.cc/Xqj7FnTL/passed3.png)](https://postimg.cc/KkW2hhc3)
+   
+   Build Failed since Tests Failed
    [![failed1.jpg](https://i.postimg.cc/Gthg1Y1R/failed1.jpg)](https://postimg.cc/HcR9wrxv)
    [![failedtestcase.jpg](https://i.postimg.cc/ncTZ7YL4/failedtestcase.jpg)](https://postimg.cc/JGy9CXZ0)
