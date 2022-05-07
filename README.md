@@ -52,18 +52,18 @@ _Please note : `run-tests.sh` file is a unix formatted script file so care has t
 
 ### Continuous Integration
 
-- A CI pipeline is also created through Git Hub actions workflow file. The actions trigger a CI build which performs some checks & execute the unit tests when ever      there is a Push or pull request to the master/main branch
+- A CI pipeline is also created through GitHub Actions workflow file. The actions trigger a CI build which performs some checks & execute the unit tests when ever      there is a push or pull request to the master branch
 
    _**Github Action:**_
    
    [![GHActions.jpg](https://i.postimg.cc/wBSMRcBq/GHActions.jpg)](https://postimg.cc/5HSbZzvT)
    
-   _**Build Passed since Tests Passed:**_
+   _**Build Passed & Tests Passed:**_
    
    [![pass2.jpg](https://i.postimg.cc/1Xn7vFh3/pass2.jpg)](https://postimg.cc/QKDqtHd2)
    [![passed3.png](https://i.postimg.cc/Xqj7FnTL/passed3.png)](https://postimg.cc/KkW2hhc3)
    
-   _**Build Failed since Tests Failed:**_
+   _**Build Failed & Tests Failed:**_
    
    [![failed1.jpg](https://i.postimg.cc/Gthg1Y1R/failed1.jpg)](https://postimg.cc/HcR9wrxv)
    [![failedtestcase.jpg](https://i.postimg.cc/ncTZ7YL4/failedtestcase.jpg)](https://postimg.cc/JGy9CXZ0)
