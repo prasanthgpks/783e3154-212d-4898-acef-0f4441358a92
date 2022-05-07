@@ -21,11 +21,11 @@ The aim of this .Net project is to
       
    This will run all the tests found in the unit test project and display results in the console
    
-   Passed Tests :
+   _**Passed Tests :**_
    
    [![Console-Results.jpg](https://i.postimg.cc/63wtnHCh/Console-Results.jpg)](https://postimg.cc/d7WbKjH7)
    
-   Failed Tests :
+   _**Failed Tests :**_
    
    [![consolefail.jpg](https://i.postimg.cc/sfNt5jd2/consolefail.jpg)](https://postimg.cc/8sLKSVC8)
    
@@ -33,13 +33,17 @@ The aim of this .Net project is to
 ### Continuous Integration
 
 3. A CI pipeline is also created through Git Hub actions workflow file. The actions trigger a CI build which performs some checks & execute the unit tests when ever      there is a Push or pull request to the master/main branch
-   Github Action:
+
+   _**Github Action:**_
+   
    [![GHActions.jpg](https://i.postimg.cc/wBSMRcBq/GHActions.jpg)](https://postimg.cc/5HSbZzvT)
    
-   Build Passed since Tests Passed
+   _**Build Passed since Tests Passed:**_
+   
    [![pass2.jpg](https://i.postimg.cc/1Xn7vFh3/pass2.jpg)](https://postimg.cc/QKDqtHd2)
    [![passed3.png](https://i.postimg.cc/Xqj7FnTL/passed3.png)](https://postimg.cc/KkW2hhc3)
    
-   Build Failed since Tests Failed
+   _**Build Failed since Tests Failed:**_
+   
    [![failed1.jpg](https://i.postimg.cc/Gthg1Y1R/failed1.jpg)](https://postimg.cc/HcR9wrxv)
    [![failedtestcase.jpg](https://i.postimg.cc/ncTZ7YL4/failedtestcase.jpg)](https://postimg.cc/JGy9CXZ0)
