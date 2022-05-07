@@ -16,6 +16,7 @@ The aim of this .Net project is to
    b. `cd 783e3154-212d-4898-acef-0f4441358a92`
    c. `docker-compose -f docker-compose.yml run --rm unittests`   
    This will run all the tests found in the unit test and display results in the console
+   [![Console-Results.jpg](https://i.postimg.cc/63wtnHCh/Console-Results.jpg)](https://postimg.cc/d7WbKjH7)
 3. A CI pipeline is also created through Git Hub actions workflow file. The actions trigger a CI build and perform some checks when ever there is a Push or pull request    to the master/main branch
 
 
