@@ -10,7 +10,7 @@ The aim of this .Net project is to
 
 ### Pre-Requisites
 
-1. Make sure Docker is installed in your workstation. If not follow the instructions [Here] (https://www.docker.com/get-started/) to install it.
+1. Make sure Docker is installed in your workstation. If not follow the instructions [Docker](http://docker.com) installation [Here] (https://www.docker.com/get-started) to install it.
 
 
 
