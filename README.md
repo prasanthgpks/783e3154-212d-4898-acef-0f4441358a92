@@ -1,4 +1,4 @@
-# About the project
+# About The Project
 
 The aim of this project is to 
 - Create C# functions to calculate the first result of possible longest increasing subsequences of a given input
@@ -8,7 +8,7 @@ The aim of this project is to
 
 # Built With
 
-- C# .Net
+- C# .Net Core 3.1
 - MS Test
 - Docker
 - GitHub Actions
@@ -23,13 +23,13 @@ The aim of this project is to
 | - `run-tests.sh`       | The Entry point shell script which runs dotnet restore & dotnet test commands. It also outputs the exit code if test fails  |
 | - `docker-compose.yml` | The docker compose file which uses docker file and runs the shell script                                                    |
 
-_Please note : `run-tests.sh` file is a unix formatted script file so care has to be taken to preserve the line endings when editing the file in some text editors. The program will not work as expected if this is not followed_
+_Please note : `run-tests.sh` file is a unix formatted script file so care has to be taken to preserve the line endings when editing the file in some text editors. The  program will not work as expected if this is not followed_
 
 # Getting Started
 
 ### Pre-Requisites
-
-1. Make sure Docker is installed in your workstation. If not follow the instructions to install [Docker](http://docker.com)
+ 
+- Make sure Docker is installed in your workstation. If not follow the instructions to install [Docker](http://docker.com)
 
 ### Execute in Developer Environment
 
