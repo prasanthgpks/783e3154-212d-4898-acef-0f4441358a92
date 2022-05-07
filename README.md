@@ -36,4 +36,6 @@ The aim of this .Net project is to
 
    [![GHActions.jpg](https://i.postimg.cc/wBSMRcBq/GHActions.jpg)](https://postimg.cc/5HSbZzvT)
 
-
+   
+   [![failed1.jpg](https://i.postimg.cc/Gthg1Y1R/failed1.jpg)](https://postimg.cc/HcR9wrxv)
+   [![failedtestcase.jpg](https://i.postimg.cc/ncTZ7YL4/failedtestcase.jpg)](https://postimg.cc/JGy9CXZ0)
