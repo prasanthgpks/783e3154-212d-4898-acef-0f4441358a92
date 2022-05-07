@@ -11,7 +11,9 @@ The aim of this .Net project is to
 ### Pre-Requisites
 
 1. Make sure Docker is installed in your workstation. If not follow the instructions to install [Docker](http://docker.com)
-2. `git clone https://github.com/prasanthgpks/783e3154-212d-4898-acef-0f4441358a92.git`
+2. Open command prompt with ellevated permissions and t
+3. Clone the repo : `git clone https://github.com/prasanthgpks/783e3154-212d-4898-acef-0f4441358a92.git`
+4. 
 
 
 
