@@ -38,12 +38,14 @@ namespace Lis.Tests
             Assert.AreEqual(expectedSubSequnce, resultString);
         }
 
-        [TestMethod]
-        [Description("Failing Scenario")]
-        public void Test_Failing_Scenario()
-        {
-            //Assert
-            Assert.AreEqual(1, 2);
-        }
+        //UNCOMMENT THE BELOW FOR TESTING FAILING SCENARIOS
+
+        //[TestMethod]
+        //[Description("Failing Scenario")]
+        //public void Test_Failing_Scenario()
+        //{
+        //    //Assert
+        //    Assert.AreEqual(1, 2);
+        //}
     }
 }
