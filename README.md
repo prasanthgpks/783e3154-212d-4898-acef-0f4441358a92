@@ -17,11 +17,12 @@ The aim of this project is to
 
 | File                   | Description                                                                                                                 |
 | --------------------   | --------------------------------------------------------------------------------------------------------------------------- |
-| - `LISFunctions.cs`    | Contains the main functions used to calculate the Longest Increasing Subsequence                                            |
-| - `UnitTests.cs`       | Contains paremeterized unit test case which has total of 11 inputs & expected output passed as parameters to the test       |
-| - `Dockerfile`         | The docker file which runs dotnet restore & build using sdk 3.1 & defines an entry point which is a shell script            |
-| - `run-tests.sh`       | The Entry point shell script which runs dotnet restore & dotnet test commands. It also outputs the exit code if test fails  |
-| - `docker-compose.yml` | The docker compose file which uses docker file and runs the shell script                                                    |
+| :---         |     :---:      |         :--- |
+| `LISFunctions.cs`    | Contains the main functions used to calculate the Longest Increasing Subsequence                                            |
+| `UnitTests.cs`       | Contains paremeterized unit test case which has total of 11 inputs & expected output passed as parameters to the test       |
+| `Dockerfile`         | The docker file which runs dotnet restore & build using sdk 3.1 & defines an entry point which is a shell script            |
+| `run-tests.sh`       | The Entry point shell script which runs dotnet restore & dotnet test commands. It also outputs the exit code if test fails  |
+| `docker-compose.yml` | The docker compose file which uses docker file and runs the shell script                                                    |
 
 _Please note : `run-tests.sh` file is a unix formatted script file so care has to be taken to preserve the line endings when editing the file in some text editors. The  program will not work as expected if this is not followed_
 
@@ -33,7 +34,7 @@ _Please note : `run-tests.sh` file is a unix formatted script file so care has t
 
 ### Execute in Developer Environment
 
-2. Execute the following commands in command prompt with elevated permissions
+- Execute the following commands in command prompt with elevated permissions
    - `git clone https://github.com/prasanthgpks/783e3154-212d-4898-acef-0f4441358a92.git`
    - `cd 783e3154-212d-4898-acef-0f4441358a92`
    - `docker-compose -f docker-compose.yml run --rm unittests`
@@ -51,7 +52,7 @@ _Please note : `run-tests.sh` file is a unix formatted script file so care has t
 
 ### Continuous Integration
 
-3. A CI pipeline is also created through Git Hub actions workflow file. The actions trigger a CI build which performs some checks & execute the unit tests when ever      there is a Push or pull request to the master/main branch
+- A CI pipeline is also created through Git Hub actions workflow file. The actions trigger a CI build which performs some checks & execute the unit tests when ever      there is a Push or pull request to the master/main branch
 
    _**Github Action:**_
    
